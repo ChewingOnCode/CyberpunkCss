@@ -2,23 +2,117 @@
 
 :root {
   /* Primary Colors */
-  --Red: #f75049;
-  --Blue: hsla(183, 100%, 69%, 1);
-  --Green: #1dedb3;
+  --red: #f75049;
+  --blue: #5ff6ff
+  --green: #1dedb3;
 
   /* Variants */
-  --BlueBorder: hsla(183, 100%, 69%, 0.1);
-  --BlueFill: hsla(183, 100%, 69%, 0.3);
+  --blue-border: rgba(95 246 255 / 10%);
+  --blue-fill: rgb(95 246 255 / 30%);
 
   /* Font Family */
-  --Rajhadji: 'Rajdhani, sans-serif';
-  --Orbitron: 'Orbitron, sans-serif';
+  --rajhadji: 'Rajdhani, sans-serif';
+  --orbitron: 'Orbitron, sans-serif';
 
   /* Font Weight */
-  --fw-Light: 300;
-  --fw-Regular: 400;
-  --fw-Medium: 500;
-  --fw-SemiBold: 600;
-  --fw-Bold: 700;
-  --fw-Black: 900;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 900;
+}
+
+/* RESET */
+body,
+html,
+div,
+span,
+applet,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+abbr,
+acronym,
+address,
+blockquote,
+pre,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-red {
+  background-color: var(--red);
 }
