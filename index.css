@@ -3,12 +3,12 @@
 :root {
   /* Primary Colors */
   --red: #f75049;
-  --blue: hsla(183, 100%, 69%, 1);
+  --blue: #5ff6ff
   --green: #1dedb3;
 
   /* Variants */
-  --blue-border: hsla(183, 100%, 69%, 0.1);
-  --blue-fill: hsla(183, 100%, 69%, 0.3);
+  --blue-border: rgba(95,246,255,0.1);
+  --blue-fill: rgb(95,246,255,0.3);
 
   /* Font Family */
   --rajhadji: 'Rajdhani, sans-serif';
