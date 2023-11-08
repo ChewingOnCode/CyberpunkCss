@@ -2,17 +2,17 @@
 
 :root {
   /* Primary Colors */
-  --Red: #f75049;
-  --Blue: hsla(183, 100%, 69%, 1);
-  --Green: #1dedb3;
+  --red: #f75049;
+  --blue: hsla(183, 100%, 69%, 1);
+  --green: #1dedb3;
 
   /* Variants */
-  --BlueBorder: hsla(183, 100%, 69%, 0.1);
-  --BlueFill: hsla(183, 100%, 69%, 0.3);
+  --blue-border: hsla(183, 100%, 69%, 0.1);
+  --blue-fill: hsla(183, 100%, 69%, 0.3);
 
   /* Font Family */
-  --Rajhadji: 'Rajdhani, sans-serif';
-  --Orbitron: 'Orbitron, sans-serif';
+  --rajhadji: 'Rajdhani, sans-serif';
+  --orbitron: 'Orbitron, sans-serif';
 
   /* Font Weight */
   --fw-Light: 300;
@@ -111,9 +111,9 @@ video {
 }
 
 .bgblue {
-  background-color: var(--Blue);
+  background-color: var(--blue);
 }
 
 .bgRed {
-  background-color: var(--Red);
+  background-color: var(--red);
 }
