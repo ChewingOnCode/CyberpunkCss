@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap");
 
 :root {
   /* Primary Colors */
   --red: #f75049;
-  --blue: #5ff6ff
-  --green: #1dedb3;
+  --blue: #5ff6ff --green: #1dedb3;
 
   /* Variants */
   --blue-border: rgba(95 246 255 / 10%);
   --blue-fill: rgb(95 246 255 / 30%);
 
   /* Font Family */
-  --rajhadji: 'Rajdhani, sans-serif';
-  --orbitron: 'Orbitron, sans-serif';
+  --rajhadji: "Rajdhani, sans-serif";
+  --orbitron: "Orbitron, sans-serif";
 
   /* Font Weight */
   --fw-light: 300;
@@ -107,6 +106,7 @@ video {
   border: 0;
   font-size: 16px;
   vertical-align: baseline;
+  line-height: 1.5;
 }
 
 .bg-blue {
@@ -115,4 +115,8 @@ video {
 
 .bg-red {
   background-color: var(--red);
+}
+
+.bg-border{
+  border: 2px solid var(--blue-border);
 }
