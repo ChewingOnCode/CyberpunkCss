@@ -7,8 +7,8 @@
   --green: #1dedb3;
 
   /* Variants */
-  --blue-border: rgba(95,246,255,10%);
-  --blue-fill: rgb(95,246,255,30%);
+  --blue-border: rgba(95 246 255 / 10%);
+  --blue-fill: rgb(95 246 255 / 30%);
 
   /* Font Family */
   --rajhadji: 'Rajdhani, sans-serif';
@@ -113,6 +113,6 @@ video {
   background-color: var(--blue);
 }
 
-.bg-Red {
+.bg-red {
   background-color: var(--red);
 }
